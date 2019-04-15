@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Adresar SYSTEM "Adresar.dtd">
+
+<Adresar>
+  <osoba id="Osoba1">
+    <punoIme>
+      <ime>Marko</ime>
+      <srednjeIme>Mare</srednjeIme>
+      <prezime>Mitic</prezime>
+    </punoIme>
+    <datumRodjenja>
+      <dan>13</dan>
+      <mesec>5</mesec>
+      <godina>1997</godina>
+    </datumRodjenja>
+    <adresa tip="stalna">
+      <ulica>Resavska</ulica>
+      <broj>67</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="fiksni">011/242-581</telefon>
+    <email tip="privatni">marko.mitic@gmail.com</email>
+    <email tip="sluzbeni">marko.mitic97@microsoft.com</email>
+    <email tip="privatni">maremitic@gmail.com</email>
+  </osoba>
+  
+  
+  <osoba id="Osoba2">
+    <punoIme>
+      <ime>Lazar</ime>
+      <prezime>Lazic</prezime>
+    </punoIme>
+    <datumRodjenja>
+      <dan>2</dan>
+      <mesec>10</mesec>
+      <godina>1985</godina>
+    </datumRodjenja>
+    <adresa tip="stalna">
+      <ulica>Bulevar Kralja Aleksandra</ulica>
+      <broj>256</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="fiksni">011/123-456</telefon>
+    <email tip="privatni">lazarlazic@gmail.com</email>
+  </osoba>
+  
+  
+  <osoba id="Osoba3">
+    <punoIme>
+      <ime>Mihajlo</ime>
+      <prezime>Mihajlovic</prezime>
+      <prezime>Matic</prezime>
+    </punoIme>
+    <datumRodjenja>
+      <dan>29</dan>
+      <mesec>11</mesec>
+      <godina>2000</godina>
+    </datumRodjenja>
+    <adresa tip="stalna">
+      <ulica>Borska</ulica>
+      <broj>52</broj>
+      <grad>Kragujevac</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="mobilni">062/986-543</telefon>
+    <email tip="sluzbeni">mihajlomihajlovic@asseco-see.com</email>
+  </osoba>
+  
+  
+  <osoba id="Osoba4">
+    <punoIme>
+      <ime>Dusan</ime>
+      <prezime>Djordjevic</prezime>
+    </punoIme>
+    <datumRodjenja>
+      <dan>14</dan>
+      <mesec>7</mesec>
+      <godina>1981</godina>
+    </datumRodjenja>
+    <adresa tip="privremena">
+      <ulica>Radnicka</ulica>
+      <broj>32</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="fiksni">011/765-908</telefon>
+    <email tip="sluzbeni">dusan.djordjevic@asseco-see.com</email>
+    <email tip="sluzbeni">dusandj@asseco-see.com</email>
+    <email tip="privatni">dusandjordjevic@gmail.com</email>
+  </osoba>
+
+
+  <kompanija id="Kompanija2">
+    <naziv>Nordeus</naziv>
+    <adresa tip="stalna">
+      <ulica>Bulevar Mihajla Pupina</ulica>
+      <broj>165</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="fiksni">011/234-567</telefon>
+    <email tip="sluzbeni">kontakt@nordeus.com</email>
+  </kompanija>
+  
+  
+  <kompanija id="Kompanija1">
+    <naziv>Asseco SEE</naziv>
+    <adresa tip="stalna">
+      <ulica>Bulevar Milutina Milankovica</ulica>
+      <broj>19</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="fiksni">011/024-147</telefon>
+    <email tip="sluzbeni">karijera@asseco-see.com</email>
+    <email tip="sluzbeni">kontakt@asseco-see.com</email>
+    <email tip="sluzbeni">dasdas@asseco-see.com</email>
+  </kompanija>
+  
+  
+  <kompanija id="Kompanija3">
+    <naziv>NCR</naziv>
+    <adresa tip="stalna">
+      <ulica>Spanskih Boraca</ulica>
+      <broj>3</broj>
+      <grad>Beograd</grad>
+      <drzava>Srbija</drzava>
+    </adresa>
+    <telefon tip="mobilni">063/267-224</telefon>
+    <email tip="sluzbeni">contact@ncr.com</email>
+  </kompanija>
+</Adresar>
